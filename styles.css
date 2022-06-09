@@ -4,9 +4,13 @@ html {
 
 header {
     display: flex;
-    justify-content:center
+    justify-content: center;
+}
+
+body {
+    margin: 0;
 }
 
 #headerImage {
-    
+    border: 0;
 }
