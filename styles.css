@@ -1,6 +1,4 @@
-html {
-
-}
+/* Element based styles */
 
 header {
     display: flex;
@@ -11,6 +9,54 @@ body {
     margin: 0;
 }
 
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Class based styles */
+
+.navMenu {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.navItem {
+    list-style-type: none;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.menuText {
+    display: flex;
+    justify-content: space-around;
+    font-size: 26px;
+    color: #ffffff;
+    margin-top: 9px;
+}
+
+.menuOverlay {
+    position: absolute;
+    z-index: -1;
+    height: 50px;
+    width: 100%;
+    background-color: #A70531;
+}
+
+/* ID based styles */
+
 #headerImage {
     border: 0;
+}
+
+#heroImage {
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+    margin-top: 50px;
+    width: 100%;
+    height: 300px;
+    filter:blur(3px);
 }
